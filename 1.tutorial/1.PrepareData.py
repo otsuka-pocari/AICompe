@@ -1,4 +1,5 @@
 from chainer.datasets import mnist
+# CPUで画像を保存したいときは、AGGで宣言させて、画像の保存コマンドを使う(予想)
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
